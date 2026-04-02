@@ -365,11 +365,10 @@ html {
   padding-top: 9em !important;
 }
 
-/* =========================================
-   Home Intro / About-preview section
-   ========================================= */
+/* Home intro / About-preview section */
 .home-about-section {
   position: relative;
+  z-index: 1;
   padding-bottom: var(--space-lg) !important;
   padding-top: var(--space-lg) !important;
   background: var(--color-bg-section);
@@ -410,6 +409,7 @@ html {
    ========================================= */
 .home-social-icons {
   position: relative !important;
+  z-index: 2;
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -421,6 +421,7 @@ html {
   background: rgba(255,255,255,0.04);
   transition: all var(--transition-base) !important;
   color: var(--color-text-muted) !important;
+  cursor: pointer;
 }
 
 .home-social-icons:hover {
