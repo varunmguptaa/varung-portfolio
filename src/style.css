@@ -80,15 +80,45 @@ html {
 #no-scroll      { overflow: hidden; height: 100vh; }
 
 /* =========================================
-   Scrollbar
+   Scrollbar — glowing orb on a dark rail
    ========================================= */
-::-webkit-scrollbar       { width: 5px; }
-::-webkit-scrollbar-track { background: var(--color-bg-mid); }
-::-webkit-scrollbar-thumb {
-  background: var(--color-primary-dark);
-  border-radius: var(--radius-pill);
+::-webkit-scrollbar {
+  width: 8px;
 }
-::-webkit-scrollbar-thumb:hover { background: var(--color-primary); }
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-pill);
+  margin: 6px 0;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,
+    #60a5fa 0%,
+    #a78bfa 40%,
+    #22d3ee 100%
+  );
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--color-bg-deep);
+  box-shadow:
+    0 0 8px rgba(96, 165, 250, 0.6),
+    0 0 16px rgba(167, 139, 250, 0.4),
+    0 0 2px rgba(34, 211, 238, 0.8);
+  min-height: 40px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg,
+    #93c5fd 0%,
+    #c4b5fd 40%,
+    #67e8f9 100%
+  );
+  box-shadow:
+    0 0 12px rgba(96, 165, 250, 0.8),
+    0 0 24px rgba(167, 139, 250, 0.6),
+    0 0 4px rgba(34, 211, 238, 1);
+}
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #a78bfa 0%, #60a5fa 100%);
+}
+::-webkit-scrollbar-corner { background: transparent; }
 
 /* =========================================
    Navbar
@@ -275,6 +305,8 @@ html {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  pointer-events: none !important;
+  z-index: 0;
 }
 
 /* =========================================
