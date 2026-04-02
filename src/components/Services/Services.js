@@ -33,8 +33,7 @@ function Services() {
             <ServiceCard
               imgPath={webDev}
               title="Web Development"
-              description="I have tried my hands on Figma and Adobe XD to design websites"
-              
+              description="Building responsive, performant web applications using the MERN stack — MongoDB, Express, React and Node.js."
             />
           </Col>
           <Col md={4} className="service-card">

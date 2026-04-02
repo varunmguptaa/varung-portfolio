@@ -3,10 +3,11 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact/Contact";
-import {HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -32,8 +33,9 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/service" component={Services} />
           <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/service" component={Services} />
           <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
