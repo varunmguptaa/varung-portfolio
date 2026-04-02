@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/varung-portfolio/static/css/main.7b8290b5.css",
+    "main.css": "/varung-portfolio/static/css/main.6a25181c.css",
     "main.js": "/varung-portfolio/static/js/main.63f31944.js",
     "static/media/web-design.jpg": "/varung-portfolio/static/media/web-design.0a4893421f4eb80a395c.jpg",
     "static/media/pos.png": "/varung-portfolio/static/media/pos.0d0cb560fce03fa51acf.png",
@@ -13,11 +13,11 @@
     "static/media/home-main.svg": "/varung-portfolio/static/media/home-main.a7c6990107e3b4c6724f077fb1ffeab8.svg",
     "index.html": "/varung-portfolio/index.html",
     "static/media/pre.svg": "/varung-portfolio/static/media/pre.b1e14395b88d298f26bd.svg",
-    "main.7b8290b5.css.map": "/varung-portfolio/static/css/main.7b8290b5.css.map",
+    "main.6a25181c.css.map": "/varung-portfolio/static/css/main.6a25181c.css.map",
     "main.63f31944.js.map": "/varung-portfolio/static/js/main.63f31944.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b8290b5.css",
+    "static/css/main.6a25181c.css",
     "static/js/main.63f31944.js"
   ]
 }
