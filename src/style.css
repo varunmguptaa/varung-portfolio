@@ -12,10 +12,10 @@ html {
   --color-primary-dark:  #2563eb;
   --color-primary-glow:  rgba(96, 165, 250, 0.3);
 
-  /* Accent — vivid orange */
-  --color-accent:        #fb923c;
-  --color-accent-dark:   #ea580c;
-  --color-accent-glow:   rgba(251, 146, 60, 0.3);
+  /* Accent — violet/purple (replaces orange entirely) */
+  --color-accent:        #a78bfa;
+  --color-accent-dark:   #7c3aed;
+  --color-accent-glow:   rgba(167, 139, 250, 0.3);
 
   /* Highlight — lime yellow for underlines */
   --color-highlight:     #facc15;
@@ -165,7 +165,7 @@ html {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: -2px;
-  background: linear-gradient(135deg, #ffffff 0%, var(--color-primary) 60%, var(--color-active) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, var(--color-primary) 55%, var(--color-accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -208,7 +208,7 @@ html {
   height: 2px;
   width: 0;
   border-radius: var(--radius-pill);
-  background: linear-gradient(90deg, var(--color-primary), var(--color-active));
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
   bottom: 1px;
   left: 50%;
   z-index: -1;
@@ -320,13 +320,13 @@ html {
 .Typewriter__wrapper {
   font-size: 1.8em !important;
   font-family: "Fira Code", monospace !important;
-  color: var(--color-highlight) !important;
+  color: var(--color-accent) !important;
   font-weight: 500 !important;
   letter-spacing: -0.01em;
 }
 .Typewriter__cursor {
   font-size: 2em !important;
-  color: var(--color-highlight) !important;
+  color: var(--color-accent) !important;
 }
 
 .myAvtar {
@@ -777,7 +777,7 @@ html {
 .primary:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px var(--color-primary-glow);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-active) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
 }
 
 .primary:active:not(:disabled) {
@@ -852,6 +852,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.25em !important;
     font-weight: 500 !important;
     position: absolute !important;
+    color: var(--color-accent) !important;
   }
   .Typewriter__cursor { display: none !important; }
 
