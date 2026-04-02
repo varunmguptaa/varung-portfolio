@@ -9,7 +9,7 @@ const projects = [
     description:
       "A personal portfolio built with React, Bootstrap and EmailJS to showcase skills, services and contact info.",
     tech: ["React", "Bootstrap", "EmailJS", "React Router"],
-    github: "https://github.com/varun2068/varung-portfolio",
+    github: "https://github.com/varunmguptaa/varung-portfolio",
     live: "https://varun2068.github.io/varung-portfolio",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A full-stack MERN web application with user authentication, REST API and MongoDB database integration.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
-    github: "https://github.com/varun2068",
+    github: "https://github.com/varunmguptaa",
     live: null,
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Machine learning project exploring deep learning techniques with PyTorch for image classification.",
     tech: ["Python", "PyTorch", "Jupyter", "NumPy"],
-    github: "https://github.com/varun2068",
+    github: "https://github.com/varunmguptaa",
     live: null,
   },
 ];
