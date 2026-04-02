@@ -1,36 +1,38 @@
-<h1 align="center">
-  Varun Gupta — Personal Portfolio
-  <br />
-  <a href="https://varun2068.github.io/varung-portfolio/#/" target="_blank">varun2068.github.io/varung-portfolio</a>
-</h1>
+<h1 align="center">Varun Gupta — Personal Portfolio</h1>
 
 <p align="center">
-  A personal portfolio website built with React.js showcasing projects, skills, services and a contact form.
+  <a href="https://varun2068.github.io/varung-portfolio/#/" target="_blank">
+    varun2068.github.io/varung-portfolio
+  </a>
+</p>
+
+<p align="center">
+  A personal portfolio website built with React 18 showcasing my projects, skills, services and a contact form.
 </p>
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 17, React Router v5 |
-| UI | React Bootstrap 4, Custom CSS |
-| Icons | React Icons |
-| Animations | react-particles-js, react-parallax-tilt, Typewriter Effect |
-| Contact Form | @emailjs/browser |
-| Deployment | GitHub Pages (gh-pages) |
+| | |
+|---|---|
+| **Frontend** | React 18, React Router v5 |
+| **UI** | React Bootstrap 2, Bootstrap 5, Custom CSS |
+| **Icons** | React Icons |
+| **Animations** | react-particles-js, react-parallax-tilt, Typewriter Effect |
+| **Contact Form** | @emailjs/browser |
+| **Deployment** | GitHub Pages via gh-pages |
 
 ---
 
 ## Pages
 
-| Route | Description |
-|-------|-------------|
-| `/` | Home — hero, intro and social links |
+| Route | Page |
+|---|---|
+| `/` | Home — hero section, intro and social links |
 | `/about` | About — bio, tech skills and tools |
-| `/projects` | Projects — portfolio work with GitHub links |
-| `/service` | Services — what I offer |
+| `/projects` | Projects — portfolio work with GitHub and live demo links |
+| `/service` | Services — what I can do |
 | `/contact` | Contact — form and contact details |
 
 ---
@@ -39,20 +41,20 @@
 
 ### Prerequisites
 
-- Node.js >= 14
-- npm >= 6
+- Node.js >= 16
+- npm >= 8
 
-### Installation
+### Install
 
 ```bash
 git clone https://github.com/varun2068/varung-portfolio.git
 cd varung-portfolio
-npm install --legacy-peer-deps
+npm install
 ```
 
 ### Environment Variables
 
-Create a `.env` file in the project root (never commit this):
+Create a `.env` file in the project root — **do not commit this file**:
 
 ```env
 REACT_APP_EMAILJS_SERVICE_ID=your_service_id
@@ -60,18 +62,12 @@ REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
 REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Get these values from [EmailJS Dashboard](https://dashboard.emailjs.com).
+Get these from [dashboard.emailjs.com](https://dashboard.emailjs.com).
 
-### Run Locally
+### Run locally
 
 ```bash
 npm start
-```
-
-### Build for Production
-
-```bash
-npm run build
 ```
 
 ### Deploy to GitHub Pages
@@ -80,28 +76,34 @@ npm run build
 npm run deploy
 ```
 
+This builds the project and pushes it to the `gh-pages` branch automatically.
+
 ---
 
 ## Features
 
-- Multi-page layout with HashRouter (works on GitHub Pages)
-- Responsive design — mobile, tablet and desktop
+- Multi-page layout with HashRouter (compatible with GitHub Pages)
+- Fully responsive — mobile, tablet and desktop
 - Particle background animation
-- Typewriter effect on hero section
-- 3D parallax tilt on avatar image
-- Contact form with validation, loading state and success/error feedback
-- EmailJS credentials stored in environment variables (not in source)
+- Typewriter effect on hero
+- 3D parallax tilt on avatar
+- Contact form with field validation, loading state and success/error feedback
+- EmailJS credentials in environment variables (never in source code)
 - Dynamic footer copyright year
-- Open Graph and Twitter Card meta tags for social sharing
+- Open Graph and Twitter Card meta tags for social sharing previews
 
 ---
 
 ## Customisation
 
-1. Update personal info in `src/components/Home/Home2.js`, `src/components/About/AboutCard.js` and `src/components/Contact/ContactDetails.js`
-2. Add your projects in `src/components/Projects/Projects.js`
-3. Swap avatar/about images in `src/Assets/`
-4. Adjust the colour theme via CSS custom properties at the top of `src/style.css`
+| What to change | Where |
+|---|---|
+| Name, bio, intro text | `src/components/Home/Home2.js`, `src/components/About/AboutCard.js` |
+| Projects | `src/components/Projects/Projects.js` |
+| Contact details (email, phone, location) | `src/components/Contact/ContactDetails.js` |
+| Avatar / about image | `src/Assets/` |
+| Colour theme | CSS custom properties at the top of `src/style.css` |
+| Services | `src/components/Services/Services.js` |
 
 ---
 
