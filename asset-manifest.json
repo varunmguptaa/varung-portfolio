@@ -1,35 +1,23 @@
 {
   "files": {
-    "main.css": "/varung-portfolio/static/css/main.6b660649.chunk.css",
-    "main.js": "/varung-portfolio/static/js/main.fdcd4709.chunk.js",
-    "main.js.map": "/varung-portfolio/static/js/main.fdcd4709.chunk.js.map",
-    "runtime-main.js": "/varung-portfolio/static/js/runtime-main.e3b92c51.js",
-    "runtime-main.js.map": "/varung-portfolio/static/js/runtime-main.e3b92c51.js.map",
-    "static/css/2.e5750c50.chunk.css": "/varung-portfolio/static/css/2.e5750c50.chunk.css",
-    "static/js/2.36049cb1.chunk.js": "/varung-portfolio/static/js/2.36049cb1.chunk.js",
-    "static/js/2.36049cb1.chunk.js.map": "/varung-portfolio/static/js/2.36049cb1.chunk.js.map",
-    "static/js/3.fd0890aa.chunk.js": "/varung-portfolio/static/js/3.fd0890aa.chunk.js",
-    "static/js/3.fd0890aa.chunk.js.map": "/varung-portfolio/static/js/3.fd0890aa.chunk.js.map",
+    "main.css": "/varung-portfolio/static/css/main.5c039fd7.css",
+    "main.js": "/varung-portfolio/static/js/main.35c53d7b.js",
+    "static/media/web-design.jpg": "/varung-portfolio/static/media/web-design.0a4893421f4eb80a395c.jpg",
+    "static/media/pos.png": "/varung-portfolio/static/media/pos.0d0cb560fce03fa51acf.png",
+    "static/media/web-development.png": "/varung-portfolio/static/media/web-development.164f7b950f2dffac8eb4.png",
+    "static/media/Programmer.png": "/varung-portfolio/static/media/Programmer.0fac530a1d284f93a876.png",
+    "static/media/videoediting.png": "/varung-portfolio/static/media/videoediting.58dfa75fc237bab2877b.png",
+    "static/media/editing.png": "/varung-portfolio/static/media/editing.b9f1c0520d3519f48b8e.png",
+    "static/media/about.png": "/varung-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.png": "/varung-portfolio/static/media/avatar.5482709f0812498b27ff.png",
+    "static/media/home-main.svg": "/varung-portfolio/static/media/home-main.a7c6990107e3b4c6724f077fb1ffeab8.svg",
     "index.html": "/varung-portfolio/index.html",
-    "static/css/2.e5750c50.chunk.css.map": "/varung-portfolio/static/css/2.e5750c50.chunk.css.map",
-    "static/css/main.6b660649.chunk.css.map": "/varung-portfolio/static/css/main.6b660649.chunk.css.map",
-    "static/js/2.36049cb1.chunk.js.LICENSE.txt": "/varung-portfolio/static/js/2.36049cb1.chunk.js.LICENSE.txt",
-    "static/media/Programmer.0fac530a.png": "/varung-portfolio/static/media/Programmer.0fac530a.png",
-    "static/media/about.aee0f771.png": "/varung-portfolio/static/media/about.aee0f771.png",
-    "static/media/avatar.5482709f.png": "/varung-portfolio/static/media/avatar.5482709f.png",
-    "static/media/editing.b9f1c052.png": "/varung-portfolio/static/media/editing.b9f1c052.png",
-    "static/media/home-main.a7c69901.svg": "/varung-portfolio/static/media/home-main.a7c69901.svg",
-    "static/media/pos.0d0cb560.png": "/varung-portfolio/static/media/pos.0d0cb560.png",
-    "static/media/style.css": "/varung-portfolio/static/media/pre.c84cee78.svg",
-    "static/media/videoediting.58dfa75f.png": "/varung-portfolio/static/media/videoediting.58dfa75f.png",
-    "static/media/web-design.0a489342.jpg": "/varung-portfolio/static/media/web-design.0a489342.jpg",
-    "static/media/web-development.164f7b95.png": "/varung-portfolio/static/media/web-development.164f7b95.png"
+    "static/media/pre.svg": "/varung-portfolio/static/media/pre.b1e14395b88d298f26bd.svg",
+    "main.5c039fd7.css.map": "/varung-portfolio/static/css/main.5c039fd7.css.map",
+    "main.35c53d7b.js.map": "/varung-portfolio/static/js/main.35c53d7b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3b92c51.js",
-    "static/css/2.e5750c50.chunk.css",
-    "static/js/2.36049cb1.chunk.js",
-    "static/css/main.6b660649.chunk.css",
-    "static/js/main.fdcd4709.chunk.js"
+    "static/css/main.5c039fd7.css",
+    "static/js/main.35c53d7b.js"
   ]
 }
