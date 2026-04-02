@@ -86,9 +86,8 @@ html {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.03);
+  background: transparent;
   border-radius: var(--radius-pill);
-  margin: 6px 0;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg,
