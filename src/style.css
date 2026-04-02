@@ -406,11 +406,12 @@ html {
 }
 
 .card-img-top {
-  padding: 16px !important;
+  padding: 20px !important;
   opacity: 0.85 !important;
   border-radius: var(--radius-sm) !important;
-  height: 180px;
-  object-fit: cover;
+  width: 100% !important;
+  height: 160px !important;
+  object-fit: contain !important;
 }
 
 .service-heading {
